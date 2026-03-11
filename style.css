@@ -165,48 +165,68 @@ h1 {
 
 @media (max-width: 720px) {
   .shell {
-    width: min(1040px, calc(100% - 16px));
-    padding: 16px 0 28px;
+    width: min(1040px, calc(100% - 10px));
+    padding: max(10px, env(safe-area-inset-top)) 0 18px;
   }
 
   .hero {
-    flex-direction: column;
-    align-items: start;
-    padding: 20px;
-    border-radius: 22px;
+    padding: 16px;
+    gap: 14px;
+    border-radius: 18px;
   }
 
   .hero-side {
-    width: 100%;
+    width: auto;
+    margin-left: auto;
   }
 
   h1 {
-    font-size: clamp(2rem, 12vw, 3rem);
+    font-size: clamp(1.9rem, 10vw, 2.8rem);
+    line-height: 0.95;
   }
 
   .hero-text {
-    font-size: 0.95rem;
+    margin-top: 10px;
+    font-size: 0.88rem;
+    line-height: 1.4;
   }
 
   .meta {
-    grid-template-columns: 1fr;
-    gap: 12px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    margin-top: 10px;
   }
 
   .checks {
     grid-template-columns: 1fr;
-    gap: 12px;
+    gap: 10px;
+    margin-top: 10px;
   }
 
   .panel,
   .check {
-    padding: 16px;
-    border-radius: 20px;
+    padding: 14px;
+    border-radius: 16px;
+  }
+
+  .meta .panel:last-child {
+    grid-column: 1 / -1;
+  }
+
+  .panel strong {
+    margin-top: 6px;
+    font-size: 1.05rem;
+  }
+
+  .label,
+  .message,
+  .eyebrow {
+    letter-spacing: 0.06em;
+    font-size: 0.68rem;
   }
 
   .check-head {
-    flex-direction: column;
-    align-items: start;
+    gap: 10px;
   }
 
   .check-title,
@@ -214,12 +234,71 @@ h1 {
     overflow-wrap: anywhere;
   }
 
+  .check-title {
+    font-size: 1.1rem;
+  }
+
   .badge {
-    width: 100%;
+    width: auto;
     justify-content: center;
+    padding: 9px 12px;
+    font-size: 0.88rem;
   }
 
   .hero-side .badge {
+    width: auto;
+    min-width: 108px;
+    padding: 10px 14px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .shell {
     width: 100%;
+    padding: max(8px, env(safe-area-inset-top)) 0 14px;
+  }
+
+  .hero,
+  .panel,
+  .check {
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+  }
+
+  .hero {
+    padding: 14px 12px;
+  }
+
+  .meta,
+  .checks {
+    gap: 6px;
+  }
+
+  .panel,
+  .check {
+    padding: 12px;
+  }
+
+  .meta {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  h1 {
+    font-size: clamp(1.75rem, 9vw, 2.3rem);
+  }
+
+  .hero-text {
+    font-size: 0.84rem;
+  }
+
+  .check-head {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .check-title {
+    font-size: 1rem;
   }
 }
