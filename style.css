@@ -1,14 +1,14 @@
 :root {
-  --bg: #eceff3;
-  --bg-accent: #dde3ea;
-  --card: rgba(255, 255, 255, 0.82);
-  --text: #111827;
-  --muted: #667085;
+  --bg: #0b0d10;
+  --bg-accent: #131720;
+  --card: rgba(21, 27, 36, 0.82);
+  --text: #f3f7fb;
+  --muted: #9aa6b2;
   --ok: #00c875;
   --down: #ff5a5f;
   --unknown: #ffb200;
-  --line: rgba(15, 23, 42, 0.08);
-  --shadow: 0 24px 60px rgba(15, 23, 42, 0.10);
+  --line: rgba(255, 255, 255, 0.08);
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
 }
 
 * { box-sizing: border-box; }
@@ -18,8 +18,8 @@ body {
   min-height: 100vh;
   font-family: "Space Grotesk", system-ui, sans-serif;
   background:
-    radial-gradient(circle at top left, rgba(0, 200, 117, 0.10), transparent 26%),
-    radial-gradient(circle at top right, rgba(255, 90, 95, 0.10), transparent 24%),
+    radial-gradient(circle at top left, rgba(0, 200, 117, 0.14), transparent 26%),
+    radial-gradient(circle at top right, rgba(255, 90, 95, 0.14), transparent 24%),
     linear-gradient(180deg, var(--bg) 0%, var(--bg-accent) 100%);
   color: var(--text);
 }
@@ -55,6 +55,12 @@ body {
   letter-spacing: 0.08em;
   font-size: 0.75rem;
   color: var(--muted);
+}
+
+.panel strong,
+.check-title,
+h1 {
+  color: var(--text);
 }
 
 h1 {
