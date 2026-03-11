@@ -1,42 +1,42 @@
 {
-  "summary": {
-    "label": "Homelab",
-    "overall_status": "ok",
-    "last_updated": "11/03 22:02:01",
-    "last_updated_iso": "2026-03-11T22:02:01+01:00",
-    "source": "calmel",
-    "failed_checks": 0,
-    "total_checks": 5
-  },
   "checks": [
     {
       "label": "DNS",
-      "status": "ok",
+      "latency_ms": 2,
       "message": "reachable",
-      "latency_ms": 2
+      "status": "ok"
     },
     {
       "label": "HA",
-      "status": "ok",
+      "latency_ms": 30,
       "message": "HTTP 200",
-      "latency_ms": 28
+      "status": "ok"
     },
     {
       "label": "linuxeye",
-      "status": "ok",
+      "latency_ms": 2,
       "message": "reachable",
-      "latency_ms": 2
+      "status": "ok"
     },
     {
       "label": "mac",
-      "status": "ok",
+      "latency_ms": 70,
       "message": "reachable",
-      "latency_ms": 107
+      "status": "ok"
     },
     {
       "label": "rpi remota",
-      "status": "unknown",
-      "message": "sin datos"
+      "message": "sin datos",
+      "status": "unknown"
     }
-  ]
+  ],
+  "summary": {
+    "failed_checks": 0,
+    "label": "Homelab",
+    "last_updated": "11/03 22:43:30",
+    "last_updated_iso": "2026-03-11T22:43:30.840819+01:00",
+    "overall_status": "ok",
+    "source": "calmel",
+    "total_checks": 5
+  }
 }
