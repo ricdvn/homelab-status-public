@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "label": "Homelab",
+    "overall_status": "ok",
+    "last_updated": "11/03 22:02:01",
+    "last_updated_iso": "2026-03-11T22:02:01+01:00",
+    "source": "calmel",
+    "failed_checks": 0,
+    "total_checks": 5
+  },
+  "checks": [
+    {
+      "label": "DNS",
+      "status": "ok",
+      "message": "reachable",
+      "latency_ms": 2
+    },
+    {
+      "label": "HA",
+      "status": "ok",
+      "message": "HTTP 200",
+      "latency_ms": 28
+    },
+    {
+      "label": "linuxeye",
+      "status": "ok",
+      "message": "reachable",
+      "latency_ms": 2
+    },
+    {
+      "label": "mac",
+      "status": "ok",
+      "message": "reachable",
+      "latency_ms": 107
+    },
+    {
+      "label": "rpi remota",
+      "status": "unknown",
+      "message": "sin datos"
+    }
+  ]
+}
