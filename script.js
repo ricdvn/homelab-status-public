@@ -10,6 +10,12 @@ function label(status) {
   return "SIN DATOS";
 }
 
+function formatUpdatedAt(value) {
+  const match = /^(\d{2}\/\d{2})\s+(\d{2}:\d{2}:\d{2})$/.exec(value || "");
+  if (!match) return value || "-";
+  return `${match[2]} - ${match[1]}`;
+}
+
 async function loadStatus() {
   const response = await fetch(`./status/public-status.json?v=${Date.now()}`, { cache: "no-store" });
   if (!response.ok) {
@@ -17,7 +23,7 @@ async function loadStatus() {
   }
 
   const data = await response.json();
-  document.getElementById("updated-at").textContent = data.summary.last_updated;
+  document.getElementById("updated-at").textContent = formatUpdatedAt(data.summary.last_updated);
   document.getElementById("source").textContent = data.summary.source;
   document.getElementById("count").textContent = `${data.summary.total_checks}`;
 
