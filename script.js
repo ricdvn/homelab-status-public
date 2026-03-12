@@ -22,6 +22,21 @@ function formatMessage(value) {
   return value;
 }
 
+function freshnessState(lastUpdatedIso) {
+  const updatedAt = new Date(lastUpdatedIso);
+  const diffMinutes = Math.max(0, Math.floor((Date.now() - updatedAt.getTime()) / 60000));
+  if (Number.isNaN(updatedAt.getTime())) {
+    return { tone: "", text: "hora no valida" };
+  }
+  if (diffMinutes < 10) {
+    return { tone: "fresh", text: diffMinutes <= 1 ? "actualizado hace un momento" : `actualizado hace ${diffMinutes} min` };
+  }
+  if (diffMinutes < 20) {
+    return { tone: "warn", text: `sin actualizar desde hace ${diffMinutes} min` };
+  }
+  return { tone: "stale", text: `desactualizado desde hace ${diffMinutes} min` };
+}
+
 async function loadStatus() {
   const response = await fetch(`./status/public-status.json?v=${Date.now()}`, { cache: "no-store" });
   if (!response.ok) {
@@ -30,6 +45,11 @@ async function loadStatus() {
 
   const data = await response.json();
   document.getElementById("updated-at").textContent = formatUpdatedAt(data.summary.last_updated);
+  const freshness = freshnessState(data.summary.last_updated_iso);
+  const updatedPanel = document.getElementById("updated-panel");
+  const updatedFreshness = document.getElementById("updated-freshness");
+  updatedPanel.className = `panel ${freshness.tone}`.trim();
+  updatedFreshness.textContent = freshness.text;
 
   const checks = document.getElementById("checks");
   checks.innerHTML = "";
