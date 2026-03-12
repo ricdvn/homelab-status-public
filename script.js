@@ -24,18 +24,12 @@ async function loadStatus() {
 
   const data = await response.json();
   document.getElementById("updated-at").textContent = formatUpdatedAt(data.summary.last_updated);
-  document.getElementById("source").textContent = data.summary.source;
-  document.getElementById("count").textContent = `${data.summary.total_checks}`;
-
-  const overall = document.getElementById("overall");
-  overall.textContent = label(data.summary.overall_status);
-  overall.className = `badge ${tone(data.summary.overall_status)}`;
 
   const checks = document.getElementById("checks");
   checks.innerHTML = "";
   for (const check of data.checks) {
     const card = document.createElement("article");
-    card.className = "check";
+    card.className = `check${check.variant ? ` ${check.variant}` : ""}`;
     card.innerHTML = `
       <div class="check-head">
         <div class="check-title">${check.label}</div>
