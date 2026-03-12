@@ -16,6 +16,12 @@ function formatUpdatedAt(value) {
   return `${match[2]} - ${match[1]}`;
 }
 
+function formatMessage(value) {
+  if (value === "reachable") return "ping";
+  if (value === "HTTP 200") return "http request";
+  return value;
+}
+
 async function loadStatus() {
   const response = await fetch(`./status/public-status.json?v=${Date.now()}`, { cache: "no-store" });
   if (!response.ok) {
@@ -35,7 +41,7 @@ async function loadStatus() {
         <div class="check-title">${check.label}</div>
         <div class="badge ${tone(check.status)}">${label(check.status)}${check.latency_ms ? ` · ${check.latency_ms}ms` : ""}</div>
       </div>
-      <div class="message">${check.message}</div>
+      <div class="message">${formatMessage(check.message)}</div>
     `;
     checks.appendChild(card);
   }
