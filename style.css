@@ -121,14 +121,26 @@ h1 {
   align-items: start;
 }
 
+.check-status {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
 .check-title {
   font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: -0.03em;
 }
 
-.message {
-  margin-top: 12px;
+.check-detail {
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.66rem;
+  line-height: 1.2;
+  text-align: right;
 }
 
 .badge {
@@ -211,7 +223,6 @@ h1 {
   }
 
   .label,
-  .message,
   .eyebrow {
     letter-spacing: 0.06em;
     font-size: 0.68rem;
@@ -222,12 +233,16 @@ h1 {
   }
 
   .check-title,
-  .message {
+  .check-detail {
     overflow-wrap: anywhere;
   }
 
   .check-title {
     font-size: 1.1rem;
+  }
+
+  .check-status {
+    gap: 6px;
   }
 
   .badge {
@@ -278,6 +293,15 @@ h1 {
   .check-head {
     flex-direction: column;
     align-items: start;
+  }
+
+  .check-status {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .check-detail {
+    text-align: left;
   }
 
   .check-title {

@@ -39,9 +39,11 @@ async function loadStatus() {
     card.innerHTML = `
       <div class="check-head">
         <div class="check-title">${check.label}</div>
-        <div class="badge ${tone(check.status)}">${label(check.status)}${check.latency_ms ? ` · ${check.latency_ms}ms` : ""}</div>
+        <div class="check-status">
+          <div class="badge ${tone(check.status)}">${label(check.status)}${check.latency_ms ? ` · ${check.latency_ms}ms` : ""}</div>
+          <div class="check-detail">${formatMessage(check.message)}</div>
+        </div>
       </div>
-      <div class="message">${formatMessage(check.message)}</div>
     `;
     checks.appendChild(card);
   }
