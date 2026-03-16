@@ -2,7 +2,7 @@
   "checks": [
     {
       "label": "calmel",
-      "latency_ms": 34,
+      "latency_ms": 40,
       "message": "HTTP 200",
       "status": "ok",
       "variant": null
@@ -23,14 +23,14 @@
     },
     {
       "label": "linuxeye",
-      "latency_ms": 3,
+      "latency_ms": 2,
       "message": "reachable",
       "status": "ok",
       "variant": null
     },
     {
       "label": "mac",
-      "latency_ms": 51,
+      "latency_ms": 6,
       "message": "reachable",
       "status": "ok",
       "variant": null
@@ -45,8 +45,8 @@
   "summary": {
     "failed_checks": 0,
     "label": "Homelab",
-    "last_updated": "16/03 05:05:01",
-    "last_updated_iso": "2026-03-16T05:05:01.231359+01:00",
+    "last_updated": "16/03 05:10:01",
+    "last_updated_iso": "2026-03-16T05:10:01.648656+01:00",
     "overall_status": "ok",
     "source": "calmel",
     "total_checks": 6
