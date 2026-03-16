@@ -23,14 +23,14 @@
     },
     {
       "label": "linuxeye",
-      "latency_ms": 2,
+      "latency_ms": 3,
       "message": "reachable",
       "status": "ok",
       "variant": null
     },
     {
       "label": "mac",
-      "latency_ms": 85,
+      "latency_ms": 91,
       "message": "reachable",
       "status": "ok",
       "variant": null
@@ -45,8 +45,8 @@
   "summary": {
     "failed_checks": 0,
     "label": "Homelab",
-    "last_updated": "16/03 11:15:01",
-    "last_updated_iso": "2026-03-16T11:15:01.327850+01:00",
+    "last_updated": "16/03 11:20:01",
+    "last_updated_iso": "2026-03-16T11:20:01.768509+01:00",
     "overall_status": "ok",
     "source": "calmel",
     "total_checks": 6
