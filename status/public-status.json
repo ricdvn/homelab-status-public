@@ -2,35 +2,35 @@
   "checks": [
     {
       "label": "calmel",
-      "latency_ms": 6041,
+      "latency_ms": 6037,
       "message": "<urlopen error timed out>",
       "status": "down",
       "variant": null
     },
     {
       "label": "DNS",
-      "latency_ms": 3,
+      "latency_ms": 6,
       "message": "reachable",
       "status": "ok",
       "variant": null
     },
     {
       "label": "HA",
-      "latency_ms": 1,
+      "latency_ms": 3,
       "message": "HTTP 200",
       "status": "ok",
       "variant": null
     },
     {
       "label": "linuxeye",
-      "latency_ms": 3002,
+      "latency_ms": 3005,
       "message": "PING 192.168.10.99 (192.168.10.99) 56(84) bytes of data. --- 192.168.10.99 ping statistics --- 1 packets transmitted, 0 received, 100% packet loss, time 0ms",
       "status": "down",
       "variant": null
     },
     {
       "label": "mac",
-      "latency_ms": 44,
+      "latency_ms": 57,
       "message": "reachable",
       "status": "ok",
       "variant": null
@@ -45,8 +45,8 @@
   "summary": {
     "failed_checks": 2,
     "label": "Homelab",
-    "last_updated": "24/03 00:30:01",
-    "last_updated_iso": "2026-03-24T00:30:01.741376+01:00",
+    "last_updated": "24/03 00:35:01",
+    "last_updated_iso": "2026-03-24T00:35:01.770386+01:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 6
