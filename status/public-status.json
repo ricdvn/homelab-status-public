@@ -2,7 +2,7 @@
   "checks": [
     {
       "label": "calmel",
-      "latency_ms": 6039,
+      "latency_ms": 6050,
       "message": "<urlopen error timed out>",
       "status": "down",
       "variant": null
@@ -30,7 +30,7 @@
     },
     {
       "label": "mac",
-      "latency_ms": 10,
+      "latency_ms": 93,
       "message": "reachable",
       "status": "ok",
       "variant": null
@@ -45,8 +45,8 @@
   "summary": {
     "failed_checks": 2,
     "label": "Homelab",
-    "last_updated": "24/03 01:15:02",
-    "last_updated_iso": "2026-03-24T01:15:02.027742+01:00",
+    "last_updated": "24/03 01:20:02",
+    "last_updated_iso": "2026-03-24T01:20:02.059279+01:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 6
