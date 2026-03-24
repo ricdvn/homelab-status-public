@@ -2,7 +2,7 @@
   "checks": [
     {
       "label": "calmel",
-      "latency_ms": 6038,
+      "latency_ms": 6054,
       "message": "<urlopen error timed out>",
       "status": "down",
       "variant": null
@@ -30,7 +30,7 @@
     },
     {
       "label": "mac",
-      "latency_ms": 3005,
+      "latency_ms": 3002,
       "message": "PING 192.168.10.105 (192.168.10.105) 56(84) bytes of data. --- 192.168.10.105 ping statistics --- 1 packets transmitted, 0 received, 100% packet loss, time 0ms",
       "status": "down",
       "variant": null
@@ -45,8 +45,8 @@
   "summary": {
     "failed_checks": 3,
     "label": "Homelab",
-    "last_updated": "24/03 09:55:01",
-    "last_updated_iso": "2026-03-24T09:55:01.260981+01:00",
+    "last_updated": "24/03 10:00:01",
+    "last_updated_iso": "2026-03-24T10:00:01.288161+01:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 6
