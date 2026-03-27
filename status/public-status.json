@@ -45,8 +45,8 @@
   "summary": {
     "failed_checks": 2,
     "label": "Homelab",
-    "last_updated": "27/03 11:45:01",
-    "last_updated_iso": "2026-03-27T11:45:01.966577+01:00",
+    "last_updated": "27/03 11:50:01",
+    "last_updated_iso": "2026-03-27T11:50:01.998603+01:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 6
