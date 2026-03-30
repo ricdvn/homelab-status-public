@@ -2,7 +2,7 @@
   "checks": [
     {
       "label": "calmel",
-      "latency_ms": 43,
+      "latency_ms": 37,
       "message": "HTTP 200",
       "status": "ok",
       "variant": null
@@ -45,8 +45,8 @@
   "summary": {
     "failed_checks": 1,
     "label": "Homelab",
-    "last_updated": "30/03 11:40:02",
-    "last_updated_iso": "2026-03-30T11:40:02.033703+02:00",
+    "last_updated": "30/03 11:45:01",
+    "last_updated_iso": "2026-03-30T11:45:01.962643+02:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 6
