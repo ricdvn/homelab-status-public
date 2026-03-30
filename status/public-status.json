@@ -2,7 +2,7 @@
   "checks": [
     {
       "label": "calmel",
-      "latency_ms": 42,
+      "latency_ms": 37,
       "message": "HTTP 200",
       "status": "ok",
       "variant": null
@@ -16,21 +16,21 @@
     },
     {
       "label": "HA",
-      "latency_ms": 2,
+      "latency_ms": 1,
       "message": "HTTP 200",
       "status": "ok",
       "variant": null
     },
     {
       "label": "linuxeye",
-      "latency_ms": 3,
+      "latency_ms": 2,
       "message": "reachable",
       "status": "ok",
       "variant": null
     },
     {
       "label": "mac",
-      "latency_ms": 3004,
+      "latency_ms": 3002,
       "message": "PING 192.168.10.105 (192.168.10.105) 56(84) bytes of data. --- 192.168.10.105 ping statistics --- 1 packets transmitted, 0 received, 100% packet loss, time 0ms",
       "status": "down",
       "variant": null
@@ -45,8 +45,8 @@
   "summary": {
     "failed_checks": 1,
     "label": "Homelab",
-    "last_updated": "30/03 13:50:01",
-    "last_updated_iso": "2026-03-30T13:50:01.633739+02:00",
+    "last_updated": "30/03 13:55:01",
+    "last_updated_iso": "2026-03-30T13:55:01.759871+02:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 6
