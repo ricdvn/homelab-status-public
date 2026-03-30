@@ -2,7 +2,7 @@
   "checks": [
     {
       "label": "calmel",
-      "latency_ms": 40,
+      "latency_ms": 38,
       "message": "HTTP 200",
       "status": "ok",
       "variant": null
@@ -30,7 +30,7 @@
     },
     {
       "label": "mac",
-      "latency_ms": 606,
+      "latency_ms": 333,
       "message": "reachable",
       "status": "ok",
       "variant": null
@@ -45,8 +45,8 @@
   "summary": {
     "failed_checks": 0,
     "label": "Homelab",
-    "last_updated": "30/03 02:35:01",
-    "last_updated_iso": "2026-03-30T02:35:01.838310+02:00",
+    "last_updated": "30/03 02:40:01",
+    "last_updated_iso": "2026-03-30T02:40:01.503210+02:00",
     "overall_status": "ok",
     "source": "calmel",
     "total_checks": 6
