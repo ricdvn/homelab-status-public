@@ -9,7 +9,7 @@
     },
     {
       "label": "DNS",
-      "latency_ms": 2,
+      "latency_ms": 3,
       "message": "reachable",
       "status": "ok",
       "variant": null
@@ -30,7 +30,7 @@
     },
     {
       "label": "mac",
-      "latency_ms": 218,
+      "latency_ms": 350,
       "message": "reachable",
       "status": "ok",
       "variant": null
@@ -45,8 +45,8 @@
   "summary": {
     "failed_checks": 0,
     "label": "Homelab",
-    "last_updated": "31/03 07:05:01",
-    "last_updated_iso": "2026-03-31T07:05:01.684763+02:00",
+    "last_updated": "31/03 07:10:01",
+    "last_updated_iso": "2026-03-31T07:10:01.777468+02:00",
     "overall_status": "ok",
     "source": "calmel",
     "total_checks": 6
