@@ -23,7 +23,7 @@
     },
     {
       "label": "linuxeye",
-      "latency_ms": 2964,
+      "latency_ms": 2966,
       "message": "PING 192.168.10.99 (192.168.10.99) 56(84) bytes of data. From 192.168.10.101 icmp_seq=1 Destination Host Unreachable --- 192.168.10.99 ping statistics --- 1 packets transmitted, 0 ",
       "status": "down",
       "variant": null
@@ -45,8 +45,8 @@
   "summary": {
     "failed_checks": 2,
     "label": "Homelab",
-    "last_updated": "02/04 22:15:01",
-    "last_updated_iso": "2026-04-02T22:15:01.343695+02:00",
+    "last_updated": "02/04 22:20:01",
+    "last_updated_iso": "2026-04-02T22:20:01.375221+02:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 6
