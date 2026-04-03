@@ -2,14 +2,14 @@
   "checks": [
     {
       "label": "calmel",
-      "latency_ms": 34,
+      "latency_ms": 42,
       "message": "HTTP 200",
       "status": "ok",
       "variant": null
     },
     {
       "label": "DNS",
-      "latency_ms": 2,
+      "latency_ms": 3,
       "message": "reachable",
       "status": "ok",
       "variant": null
@@ -30,9 +30,9 @@
     },
     {
       "label": "mac",
-      "latency_ms": 3005,
-      "message": "PING 192.168.10.105 (192.168.10.105) 56(84) bytes of data. --- 192.168.10.105 ping statistics --- 1 packets transmitted, 0 received, 100% packet loss, time 0ms",
-      "status": "down",
+      "latency_ms": 95,
+      "message": "reachable",
+      "status": "ok",
       "variant": null
     },
     {
@@ -43,10 +43,10 @@
     }
   ],
   "summary": {
-    "failed_checks": 2,
+    "failed_checks": 1,
     "label": "Homelab",
-    "last_updated": "04/04 01:45:01",
-    "last_updated_iso": "2026-04-04T01:45:01.686396+02:00",
+    "last_updated": "04/04 01:50:01",
+    "last_updated_iso": "2026-04-04T01:50:01.708958+02:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 6
