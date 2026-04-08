@@ -2,14 +2,14 @@
   "checks": [
     {
       "label": "calmel",
-      "latency_ms": 48,
+      "latency_ms": 41,
       "message": "HTTP 200",
       "status": "ok",
       "variant": null
     },
     {
       "label": "DNS",
-      "latency_ms": 2,
+      "latency_ms": 3,
       "message": "reachable",
       "status": "ok",
       "variant": null
@@ -23,14 +23,14 @@
     },
     {
       "label": "linuxeye",
-      "latency_ms": 2950,
+      "latency_ms": 2960,
       "message": "PING 192.168.10.99 (192.168.10.99) 56(84) bytes of data. From 192.168.10.101 icmp_seq=1 Destination Host Unreachable --- 192.168.10.99 ping statistics --- 1 packets transmitted, 0 ",
       "status": "down",
       "variant": null
     },
     {
       "label": "mac",
-      "latency_ms": 52,
+      "latency_ms": 53,
       "message": "reachable",
       "status": "ok",
       "variant": null
@@ -45,8 +45,8 @@
   "summary": {
     "failed_checks": 1,
     "label": "Homelab",
-    "last_updated": "08/04 05:55:01",
-    "last_updated_iso": "2026-04-08T05:55:01.379589+02:00",
+    "last_updated": "08/04 06:00:01",
+    "last_updated_iso": "2026-04-08T06:00:01.407774+02:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 6
