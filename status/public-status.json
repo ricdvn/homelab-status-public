@@ -30,7 +30,7 @@
     },
     {
       "label": "mac",
-      "latency_ms": 60,
+      "latency_ms": 58,
       "message": "reachable",
       "status": "ok",
       "variant": null
@@ -45,8 +45,8 @@
   "summary": {
     "failed_checks": 1,
     "label": "Homelab",
-    "last_updated": "09/04 16:45:01",
-    "last_updated_iso": "2026-04-09T16:45:01.375895+02:00",
+    "last_updated": "09/04 16:50:01",
+    "last_updated_iso": "2026-04-09T16:50:01.408230+02:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 6
