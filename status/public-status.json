@@ -2,21 +2,21 @@
   "checks": [
     {
       "label": "calmel",
-      "latency_ms": 41,
+      "latency_ms": 35,
       "message": "HTTP 200",
       "status": "ok",
       "variant": null
     },
     {
       "label": "DNS",
-      "latency_ms": 5,
+      "latency_ms": 3,
       "message": "reachable",
       "status": "ok",
       "variant": null
     },
     {
       "label": "HA",
-      "latency_ms": 3,
+      "latency_ms": 1,
       "message": "HTTP 200",
       "status": "ok",
       "variant": null
@@ -36,19 +36,27 @@
       "variant": null
     },
     {
-      "label": "rpi remota",
-      "message": "sin datos",
-      "status": "unknown",
+      "label": "remotemon dns",
+      "latency_ms": 51,
+      "message": "resolved to 81.35.55.19",
+      "status": "ok",
+      "variant": "remote"
+    },
+    {
+      "label": "remotemon ssh",
+      "latency_ms": 22,
+      "message": "TCP 8075 open",
+      "status": "ok",
       "variant": "remote"
     }
   ],
   "summary": {
     "failed_checks": 1,
     "label": "Homelab",
-    "last_updated": "10/04 14:30:01",
-    "last_updated_iso": "2026-04-10T14:30:01.814258+02:00",
+    "last_updated": "10/04 14:30:51",
+    "last_updated_iso": "2026-04-10T14:30:51.242801+02:00",
     "overall_status": "down",
     "source": "calmel",
-    "total_checks": 6
+    "total_checks": 7
   }
 }
