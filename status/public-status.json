@@ -2,14 +2,14 @@
   "checks": [
     {
       "label": "calmel",
-      "latency_ms": 36,
+      "latency_ms": 37,
       "message": "HTTP 200",
       "status": "ok",
       "variant": null
     },
     {
       "label": "DNS",
-      "latency_ms": 2,
+      "latency_ms": 3,
       "message": "reachable",
       "status": "ok",
       "variant": null
@@ -30,21 +30,21 @@
     },
     {
       "label": "mac",
-      "latency_ms": 3002,
+      "latency_ms": 3001,
       "message": "PING 192.168.10.105 (192.168.10.105) 56(84) bytes of data. --- 192.168.10.105 ping statistics --- 1 packets transmitted, 0 received, 100% packet loss, time 0ms",
       "status": "down",
       "variant": null
     },
     {
       "label": "remotemon dns",
-      "latency_ms": 28,
+      "latency_ms": 75,
       "message": "resolved to 81.35.55.19",
       "status": "ok",
       "variant": "remote"
     },
     {
       "label": "remotemon ssh",
-      "latency_ms": 26,
+      "latency_ms": 13,
       "message": "TCP 8075 open",
       "status": "ok",
       "variant": "remote"
@@ -53,8 +53,8 @@
   "summary": {
     "failed_checks": 1,
     "label": "Homelab",
-    "last_updated": "15/04 10:35:01",
-    "last_updated_iso": "2026-04-15T10:35:01.512827+02:00",
+    "last_updated": "15/04 10:40:01",
+    "last_updated_iso": "2026-04-15T10:40:01.791810+02:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 7
