@@ -2,7 +2,7 @@
   "checks": [
     {
       "label": "calmel",
-      "latency_ms": 36,
+      "latency_ms": 38,
       "message": "HTTP 200",
       "status": "ok",
       "variant": null
@@ -30,7 +30,7 @@
     },
     {
       "label": "mac",
-      "latency_ms": 41,
+      "latency_ms": 32,
       "message": "reachable",
       "status": "ok",
       "variant": null
@@ -44,7 +44,7 @@
     },
     {
       "label": "remotemon ssh",
-      "latency_ms": 22,
+      "latency_ms": 15,
       "message": "TCP 8075 open",
       "status": "ok",
       "variant": "remote"
@@ -53,8 +53,8 @@
   "summary": {
     "failed_checks": 0,
     "label": "Homelab",
-    "last_updated": "16/04 07:05:01",
-    "last_updated_iso": "2026-04-16T07:05:01.379066+02:00",
+    "last_updated": "16/04 07:10:01",
+    "last_updated_iso": "2026-04-16T07:10:01.931947+02:00",
     "overall_status": "ok",
     "source": "calmel",
     "total_checks": 7
