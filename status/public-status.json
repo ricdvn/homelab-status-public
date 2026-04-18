@@ -2,14 +2,14 @@
   "checks": [
     {
       "label": "calmel",
-      "latency_ms": 37,
+      "latency_ms": 39,
       "message": "HTTP 200",
       "status": "ok",
       "variant": null
     },
     {
       "label": "DNS",
-      "latency_ms": 2,
+      "latency_ms": 3,
       "message": "reachable",
       "status": "ok",
       "variant": null
@@ -37,7 +37,7 @@
     },
     {
       "label": "remotemon dns",
-      "latency_ms": 59,
+      "latency_ms": 25,
       "message": "resolved to 81.35.55.19",
       "status": "ok",
       "variant": "remote"
@@ -53,8 +53,8 @@
   "summary": {
     "failed_checks": 1,
     "label": "Homelab",
-    "last_updated": "18/04 07:35:01",
-    "last_updated_iso": "2026-04-18T07:35:01.732897+02:00",
+    "last_updated": "18/04 07:40:01",
+    "last_updated_iso": "2026-04-18T07:40:01.705273+02:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 7
