@@ -44,7 +44,7 @@
     },
     {
       "label": "remotemon ssh",
-      "latency_ms": 22,
+      "latency_ms": 27,
       "message": "TCP 8075 open",
       "status": "ok",
       "variant": "remote"
@@ -53,8 +53,8 @@
   "summary": {
     "failed_checks": 1,
     "label": "Homelab",
-    "last_updated": "18/04 05:50:01",
-    "last_updated_iso": "2026-04-18T05:50:01.175768+02:00",
+    "last_updated": "18/04 05:55:01",
+    "last_updated_iso": "2026-04-18T05:55:01.088519+02:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 7
