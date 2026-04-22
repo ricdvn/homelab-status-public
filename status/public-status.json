@@ -23,7 +23,7 @@
     },
     {
       "label": "linuxeye",
-      "latency_ms": 1,
+      "latency_ms": 2,
       "message": "reachable",
       "status": "ok",
       "variant": null
@@ -44,7 +44,7 @@
     },
     {
       "label": "remotemon ssh",
-      "latency_ms": 38,
+      "latency_ms": 14,
       "message": "TCP 8075 open",
       "status": "ok",
       "variant": "remote"
@@ -53,8 +53,8 @@
   "summary": {
     "failed_checks": 1,
     "label": "Homelab",
-    "last_updated": "22/04 20:35:01",
-    "last_updated_iso": "2026-04-22T20:35:01.474792+02:00",
+    "last_updated": "22/04 20:40:01",
+    "last_updated_iso": "2026-04-22T20:40:01.595812+02:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 7
