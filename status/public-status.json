@@ -9,7 +9,7 @@
     },
     {
       "label": "DNS",
-      "latency_ms": 3,
+      "latency_ms": 2,
       "message": "reachable",
       "status": "ok",
       "variant": null
@@ -53,8 +53,8 @@
   "summary": {
     "failed_checks": 1,
     "label": "Homelab",
-    "last_updated": "27/04 14:40:01",
-    "last_updated_iso": "2026-04-27T14:40:01.722065+02:00",
+    "last_updated": "27/04 14:45:01",
+    "last_updated_iso": "2026-04-27T14:45:01.687503+02:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 7
