@@ -23,7 +23,7 @@
     },
     {
       "label": "linuxeye",
-      "latency_ms": 2,
+      "latency_ms": 3,
       "message": "reachable",
       "status": "ok",
       "variant": null
@@ -37,7 +37,7 @@
     },
     {
       "label": "remotemon dns",
-      "latency_ms": 42,
+      "latency_ms": 31,
       "message": "resolved to 81.34.90.124",
       "status": "ok",
       "variant": "remote"
@@ -53,8 +53,8 @@
   "summary": {
     "failed_checks": 1,
     "label": "Homelab",
-    "last_updated": "19/05 22:55:01",
-    "last_updated_iso": "2026-05-19T22:55:01.383116+02:00",
+    "last_updated": "19/05 23:00:01",
+    "last_updated_iso": "2026-05-19T23:00:01.405041+02:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 7
