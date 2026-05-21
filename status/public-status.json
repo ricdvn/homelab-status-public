@@ -9,14 +9,14 @@
     },
     {
       "label": "DNS",
-      "latency_ms": 3,
+      "latency_ms": 2,
       "message": "reachable",
       "status": "ok",
       "variant": null
     },
     {
       "label": "HA",
-      "latency_ms": 2,
+      "latency_ms": 1,
       "message": "HTTP 200",
       "status": "ok",
       "variant": null
@@ -37,14 +37,14 @@
     },
     {
       "label": "remotemon dns",
-      "latency_ms": 28,
+      "latency_ms": 56,
       "message": "resolved to 81.34.90.124",
       "status": "ok",
       "variant": "remote"
     },
     {
       "label": "remotemon ssh",
-      "latency_ms": 13,
+      "latency_ms": 18,
       "message": "TCP 8075 open",
       "status": "ok",
       "variant": "remote"
@@ -53,8 +53,8 @@
   "summary": {
     "failed_checks": 1,
     "label": "Homelab",
-    "last_updated": "21/05 10:20:01",
-    "last_updated_iso": "2026-05-21T10:20:01.125017+02:00",
+    "last_updated": "21/05 10:25:01",
+    "last_updated_iso": "2026-05-21T10:25:01.640224+02:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 7
