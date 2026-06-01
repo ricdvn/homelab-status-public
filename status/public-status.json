@@ -37,14 +37,14 @@
     },
     {
       "label": "remotemon dns",
-      "latency_ms": 30,
+      "latency_ms": 48,
       "message": "resolved to 81.35.56.77",
       "status": "ok",
       "variant": "remote"
     },
     {
       "label": "remotemon ssh",
-      "latency_ms": 3017,
+      "latency_ms": 3035,
       "message": "TCP 8075 closed/unreachable: [Errno 113] No route to host",
       "status": "down",
       "variant": "remote"
@@ -53,8 +53,8 @@
   "summary": {
     "failed_checks": 2,
     "label": "Homelab",
-    "last_updated": "01/06 18:00:01",
-    "last_updated_iso": "2026-06-01T18:00:01.682622+02:00",
+    "last_updated": "01/06 18:05:01",
+    "last_updated_iso": "2026-06-01T18:05:01.666606+02:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 7
