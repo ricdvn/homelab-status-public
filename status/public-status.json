@@ -2,7 +2,7 @@
   "checks": [
     {
       "label": "calmel",
-      "latency_ms": 39,
+      "latency_ms": 40,
       "message": "HTTP 200",
       "status": "ok",
       "variant": null
@@ -16,15 +16,15 @@
     },
     {
       "label": "HA",
-      "latency_ms": 4,
+      "latency_ms": 1,
       "message": "HTTP 200",
       "status": "ok",
       "variant": null
     },
     {
       "label": "linuxeye",
-      "latency_ms": 2998,
-      "message": "PING 192.168.10.99 (192.168.10.99) 56(84) bytes of data. From 192.168.10.101 icmp_seq=1 Destination Host Unreachable --- 192.168.10.99 ping statistics --- 1 packets transmitted, 0 ",
+      "latency_ms": 3002,
+      "message": "PING 192.168.10.99 (192.168.10.99) 56(84) bytes of data. --- 192.168.10.99 ping statistics --- 1 packets transmitted, 0 received, 100% packet loss, time 0ms",
       "status": "down",
       "variant": null
     },
@@ -37,24 +37,24 @@
     },
     {
       "label": "remotemon dns",
-      "latency_ms": 66,
+      "latency_ms": 33,
       "message": "resolved to 81.35.56.77",
       "status": "ok",
       "variant": "remote"
     },
     {
       "label": "remotemon ssh",
-      "latency_ms": 14,
-      "message": "TCP 8075 open",
-      "status": "ok",
+      "latency_ms": 3032,
+      "message": "TCP 8075 closed/unreachable: [Errno 113] No route to host",
+      "status": "down",
       "variant": "remote"
     }
   ],
   "summary": {
-    "failed_checks": 2,
+    "failed_checks": 3,
     "label": "Homelab",
-    "last_updated": "04/06 21:55:01",
-    "last_updated_iso": "2026-06-04T21:55:01.688417+02:00",
+    "last_updated": "04/06 22:00:02",
+    "last_updated_iso": "2026-06-04T22:00:02.036962+02:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 7
