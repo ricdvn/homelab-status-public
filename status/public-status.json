@@ -2,7 +2,7 @@
   "checks": [
     {
       "label": "calmel",
-      "latency_ms": 3079,
+      "latency_ms": 2782,
       "message": "HTTP 200",
       "status": "ok",
       "variant": null
@@ -30,21 +30,21 @@
     },
     {
       "label": "mac",
-      "latency_ms": 689,
+      "latency_ms": 1002,
       "message": "PING 192.168.10.105 (192.168.10.105) 56(84) bytes of data. From 192.168.10.101 icmp_seq=1 Destination Host Unreachable --- 192.168.10.105 ping statistics --- 1 packets transmitted,",
       "status": "down",
       "variant": null
     },
     {
       "label": "remotemon dns",
-      "latency_ms": 29,
+      "latency_ms": 44,
       "message": "resolved to 81.34.89.103",
       "status": "ok",
       "variant": "remote"
     },
     {
       "label": "remotemon ssh",
-      "latency_ms": 2468,
+      "latency_ms": 2133,
       "message": "TCP 8075 closed/unreachable: [Errno 111] Connection refused",
       "status": "down",
       "variant": "remote"
@@ -53,8 +53,8 @@
   "summary": {
     "failed_checks": 3,
     "label": "Homelab",
-    "last_updated": "06/07 07:40:01",
-    "last_updated_iso": "2026-07-06T07:40:01.834882+02:00",
+    "last_updated": "06/07 07:45:01",
+    "last_updated_iso": "2026-07-06T07:45:01.849387+02:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 7
