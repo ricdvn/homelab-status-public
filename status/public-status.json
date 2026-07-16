@@ -9,35 +9,35 @@
     },
     {
       "label": "DNS",
-      "latency_ms": 3,
+      "latency_ms": 2,
       "message": "reachable",
       "status": "ok",
       "variant": null
     },
     {
       "label": "HA",
-      "latency_ms": 3096,
+      "latency_ms": 1810,
       "message": "<urlopen error [Errno 113] No route to host>",
       "status": "down",
       "variant": null
     },
     {
       "label": "linuxeye",
-      "latency_ms": 4,
+      "latency_ms": 5,
       "message": "reachable",
       "status": "ok",
       "variant": null
     },
     {
       "label": "mac",
-      "latency_ms": 764,
+      "latency_ms": 2043,
       "message": "PING 192.168.10.105 (192.168.10.105) 56(84) bytes of data. From 192.168.10.101 icmp_seq=1 Destination Host Unreachable --- 192.168.10.105 ping statistics --- 1 packets transmitted,",
       "status": "down",
       "variant": null
     },
     {
       "label": "remotemon dns",
-      "latency_ms": 28,
+      "latency_ms": 43,
       "message": "resolved to 81.34.89.103",
       "status": "ok",
       "variant": "remote"
@@ -53,8 +53,8 @@
   "summary": {
     "failed_checks": 3,
     "label": "Homelab",
-    "last_updated": "16/07 22:20:01",
-    "last_updated_iso": "2026-07-16T22:20:01.248530+02:00",
+    "last_updated": "16/07 22:25:01",
+    "last_updated_iso": "2026-07-16T22:25:01.159442+02:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 7
