@@ -2,7 +2,7 @@
   "checks": [
     {
       "label": "calmel",
-      "latency_ms": 2050,
+      "latency_ms": 1445,
       "message": "HTTP 200",
       "status": "ok",
       "variant": null
@@ -16,7 +16,7 @@
     },
     {
       "label": "HA",
-      "latency_ms": 3,
+      "latency_ms": 4,
       "message": "HTTP 200",
       "status": "ok",
       "variant": null
@@ -44,7 +44,7 @@
     },
     {
       "label": "remotemon ssh",
-      "latency_ms": 158,
+      "latency_ms": 152,
       "message": "TCP 8075 closed/unreachable: [Errno 111] Connection refused",
       "status": "down",
       "variant": "remote"
@@ -53,8 +53,8 @@
   "summary": {
     "failed_checks": 3,
     "label": "Homelab",
-    "last_updated": "29/08 06:50:01",
-    "last_updated_iso": "2026-08-29T06:50:01.861522+02:00",
+    "last_updated": "29/08 06:55:01",
+    "last_updated_iso": "2026-08-29T06:55:01.798519+02:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 7
