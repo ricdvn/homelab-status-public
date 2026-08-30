@@ -2,15 +2,15 @@
   "checks": [
     {
       "label": "calmel",
-      "latency_ms": 20896,
+      "latency_ms": 17701,
       "message": "<urlopen error [Errno -2] Name or service not known>",
       "status": "down",
       "variant": null
     },
     {
       "label": "DNS",
-      "latency_ms": 2559,
-      "message": "PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data. From 192.168.10.101 icmp_seq=1 Destination Host Unreachable --- 192.168.10.10 ping statistics --- 1 packets transmitted, 0 ",
+      "latency_ms": 3005,
+      "message": "PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data. --- 192.168.10.10 ping statistics --- 1 packets transmitted, 0 received, 100% packet loss, time 0ms",
       "status": "down",
       "variant": null
     },
@@ -23,14 +23,14 @@
     },
     {
       "label": "linuxeye",
-      "latency_ms": 1979,
+      "latency_ms": 707,
       "message": "PING 192.168.10.99 (192.168.10.99) 56(84) bytes of data. From 192.168.10.101 icmp_seq=1 Destination Host Unreachable --- 192.168.10.99 ping statistics --- 1 packets transmitted, 0 ",
       "status": "down",
       "variant": null
     },
     {
       "label": "mac",
-      "latency_ms": 3003,
+      "latency_ms": 3005,
       "message": "PING 192.168.10.105 (192.168.10.105) 56(84) bytes of data. --- 192.168.10.105 ping statistics --- 1 packets transmitted, 0 received, 100% packet loss, time 0ms",
       "status": "down",
       "variant": null
@@ -44,7 +44,7 @@
     },
     {
       "label": "remotemon ssh",
-      "latency_ms": 16994,
+      "latency_ms": 18464,
       "message": "TCP 8075 closed/unreachable: [Errno -2] Name or service not known",
       "status": "down",
       "variant": "remote"
@@ -53,8 +53,8 @@
   "summary": {
     "failed_checks": 5,
     "label": "Homelab",
-    "last_updated": "30/08 07:40:01",
-    "last_updated_iso": "2026-08-30T07:40:01.940813+02:00",
+    "last_updated": "30/08 07:45:02",
+    "last_updated_iso": "2026-08-30T07:45:02.090974+02:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 7
