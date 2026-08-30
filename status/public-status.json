@@ -2,14 +2,14 @@
   "checks": [
     {
       "label": "calmel",
-      "latency_ms": 14315,
+      "latency_ms": 17230,
       "message": "<urlopen error [Errno -2] Name or service not known>",
       "status": "down",
       "variant": null
     },
     {
       "label": "DNS",
-      "latency_ms": 196,
+      "latency_ms": 1790,
       "message": "PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data. From 192.168.10.101 icmp_seq=1 Destination Host Unreachable --- 192.168.10.10 ping statistics --- 1 packets transmitted, 0 ",
       "status": "down",
       "variant": null
@@ -37,14 +37,14 @@
     },
     {
       "label": "remotemon dns",
-      "latency_ms": 24,
+      "latency_ms": 47,
       "message": "resolved to 81.34.89.103",
       "status": "ok",
       "variant": "remote"
     },
     {
       "label": "remotemon ssh",
-      "latency_ms": 16874,
+      "latency_ms": 14739,
       "message": "TCP 8075 closed/unreachable: [Errno -2] Name or service not known",
       "status": "down",
       "variant": "remote"
@@ -53,8 +53,8 @@
   "summary": {
     "failed_checks": 5,
     "label": "Homelab",
-    "last_updated": "30/08 20:20:01",
-    "last_updated_iso": "2026-08-30T20:20:01.349109+02:00",
+    "last_updated": "30/08 20:25:01",
+    "last_updated_iso": "2026-08-30T20:25:01.608414+02:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 7
