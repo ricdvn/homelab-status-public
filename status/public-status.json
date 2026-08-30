@@ -2,29 +2,29 @@
   "checks": [
     {
       "label": "calmel",
-      "latency_ms": 38,
-      "message": "HTTP 200",
-      "status": "ok",
+      "latency_ms": 28596,
+      "message": "<urlopen error [Errno -2] Name or service not known>",
+      "status": "down",
       "variant": null
     },
     {
       "label": "DNS",
-      "latency_ms": 2,
+      "latency_ms": 6,
       "message": "reachable",
       "status": "ok",
       "variant": null
     },
     {
       "label": "HA",
-      "latency_ms": 1,
+      "latency_ms": 3,
       "message": "HTTP 200",
       "status": "ok",
       "variant": null
     },
     {
       "label": "linuxeye",
-      "latency_ms": 3002,
-      "message": "PING 192.168.10.99 (192.168.10.99) 56(84) bytes of data. --- 192.168.10.99 ping statistics --- 1 packets transmitted, 0 received, 100% packet loss, time 0ms",
+      "latency_ms": 43,
+      "message": "PING 192.168.10.99 (192.168.10.99) 56(84) bytes of data. From 192.168.10.101 icmp_seq=1 Destination Host Unreachable --- 192.168.10.99 ping statistics --- 1 packets transmitted, 0 ",
       "status": "down",
       "variant": null
     },
@@ -37,24 +37,24 @@
     },
     {
       "label": "remotemon dns",
-      "latency_ms": 27,
+      "latency_ms": 38,
       "message": "resolved to 81.34.89.103",
       "status": "ok",
       "variant": "remote"
     },
     {
       "label": "remotemon ssh",
-      "latency_ms": 5,
+      "latency_ms": 1610,
       "message": "TCP 8075 closed/unreachable: [Errno 111] Connection refused",
       "status": "down",
       "variant": "remote"
     }
   ],
   "summary": {
-    "failed_checks": 3,
+    "failed_checks": 4,
     "label": "Homelab",
-    "last_updated": "30/08 19:20:01",
-    "last_updated_iso": "2026-08-30T19:20:01.924360+02:00",
+    "last_updated": "30/08 19:25:01",
+    "last_updated_iso": "2026-08-30T19:25:01.386450+02:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 7
