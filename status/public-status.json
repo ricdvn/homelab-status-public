@@ -2,7 +2,7 @@
   "checks": [
     {
       "label": "calmel",
-      "latency_ms": 11494,
+      "latency_ms": 10207,
       "message": "<urlopen error [Errno -2] Name or service not known>",
       "status": "down",
       "variant": null
@@ -16,7 +16,7 @@
     },
     {
       "label": "HA",
-      "latency_ms": 4,
+      "latency_ms": 3,
       "message": "HTTP 200",
       "status": "ok",
       "variant": null
@@ -37,14 +37,14 @@
     },
     {
       "label": "remotemon dns",
-      "latency_ms": 26,
+      "latency_ms": 49,
       "message": "resolved to 81.35.52.53",
       "status": "ok",
       "variant": "remote"
     },
     {
       "label": "remotemon ssh",
-      "latency_ms": 26205,
+      "latency_ms": 12684,
       "message": "TCP 8075 closed/unreachable: [Errno -2] Name or service not known",
       "status": "down",
       "variant": "remote"
@@ -53,8 +53,8 @@
   "summary": {
     "failed_checks": 4,
     "label": "Homelab",
-    "last_updated": "20/09 17:20:02",
-    "last_updated_iso": "2026-09-20T17:20:02.091066+02:00",
+    "last_updated": "20/09 17:25:02",
+    "last_updated_iso": "2026-09-20T17:25:02.130147+02:00",
     "overall_status": "down",
     "source": "calmel",
     "total_checks": 7
